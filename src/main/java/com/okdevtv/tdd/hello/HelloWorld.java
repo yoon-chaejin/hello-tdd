@@ -2,7 +2,7 @@ package com.okdevtv.tdd.hello;
 
 public class HelloWorld {
 	public String getMessage() {
-		return "Hello World";
+		return getMessage("World");
 	}
 
 	public String getMessage(String string) {
